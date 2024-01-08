@@ -242,6 +242,8 @@ main {
 
 .subscribe-container {
     padding-top: 70px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
 
 }
 
@@ -266,19 +268,65 @@ main {
 
 .subscribe-container input {
     border-radius: 50px;
-background: #FFF;
-width: 350px;
-height: 20px;
-text-align:left;
-padding: 8px;
+    background: #FFF;
+    width: 350px;
+    height: 20px;
+    text-align: left;
+    padding: 8px;
 
 
 }
-.subscribe-container button{
+
+.subscribe-container button {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     width: 140px;
     height: 38px;
     padding-right: 4px;
+    
 
 }
+
+footer {
+
+    background: #070211;
+    width: 1600px;
+    height: 609px;
+    margin: 0 auto;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.footer-colum {
+    display: flex;
+    gap: 360px;
+    padding-left: 120px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.colum-item {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.img-footer{
+   padding-top: 60px;
+    padding-left: 50%;
+    padding-bottom: 50px;
+}
+
+.footer-contant {
+    display: flex;
+    gap: 700px;
+    padding-left: 120px;
+    padding-top: 70px;
+   
+}
+
