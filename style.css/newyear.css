@@ -84,6 +84,7 @@ main {
     margin: 0px auto;
 }
 
+/* welcome */
 .welcome {
     margin-top: 110px;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
@@ -103,7 +104,6 @@ main {
     margin-top: 120px;
     margin-bottom: 20px;
 }
-/* Welcome */
 .welcome-description {
     margin-left: 15px;
     color: rgba(255, 255, 255, 0.80);
