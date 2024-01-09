@@ -2,11 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
-
+/* header */
 header {
     margin-top: 50px;
 }
-
+/* Banner */
 .banner {
 
     border-radius: 16px;
@@ -45,7 +45,7 @@ header {
     font-style: normal;
     font-weight: 900;
 }
-
+/* 65% OFF */
 .parcent-contant {
     text-align: center;
 
@@ -78,7 +78,7 @@ header {
     font-weight: 700;
     margin-bottom: 45px;
 }
-
+/* main */
 main {
     max-width: 1320px;
     margin: 0px auto;
@@ -103,7 +103,7 @@ main {
     margin-top: 120px;
     margin-bottom: 20px;
 }
-
+/* Welcome */
 .welcome-description {
     margin-left: 15px;
     color: rgba(255, 255, 255, 0.80);
@@ -114,15 +114,16 @@ main {
 }
 
 .welcome-join-btn {
-    margin-top: 5px;
-    margin-left: 15px;
-    color: #FFF;
+    color: #2e2828;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
+    font-style: normal;
     font-weight: 700;
+    padding: 5px;
+    
 }
-
+/* New park hotel */
 .hotel {
     padding: 80px;
     margin-top: 120px;
@@ -153,9 +154,63 @@ main {
     gap: 10px;
     margin-bottom: 90px;
 }
+/* Comming Soon */
+.offer {
+    display: flex;
+    margin-top: 70px;
+}
 
+.offer-contant {
+    padding: 20px;
+
+}
+
+.offer-min-title {
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 14px;
+
+}
+
+.offer-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+
+}
+
+.offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.offer-img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 40px 40px;
+    margin-right: 30px;
+}
+.year{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+
+}
+.year-img{
+    padding-top: 60px;
+}
+/* our awesome portfolio */
 .best-gift {
-    margin-top: 130px;
+    margin-top: 180px;
 }
 
 .gift-min-title {
@@ -238,7 +293,7 @@ main {
     border: 1px solid rgb(235, 221, 221);
     border-radius: 22px;
 }
-
+/* subscribe section */
 .subscribe {
     margin-top: 100px;
     text-align: center;
@@ -282,7 +337,7 @@ button {
     border-radius: 50px;
     background: #FFF;
     padding-left: 5px;
-    
+
 }
 
 .btn label {
@@ -297,58 +352,60 @@ button {
     padding-left: 8px;
     padding-right: 8px;
 }
-    .btn input {
-         margin: 0px 5px;
-        border: none;
-        padding-left:5px;
-    }
 
- 
+.btn input {
+    margin: 0px 5px;
+    border: none;
+    padding-left: 5px;
+}
 
-    footer {
+/* footer */
 
-        background: #070211;
-        width: 1600px;
-        height: 609px;
-        margin: 0 auto;
-        display: block;
-        background-position: center;
-        background-repeat: no-repeat;
+footer {
 
-    }
+    background: #070211;
+    width: 1600px;
+    height: 609px;
+    margin: 0 auto;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
 
-    .footer-colum {
-        display: flex;
-        gap: 360px;
-        padding-left: 120px;
-        padding-top: 100px;
-        padding-bottom: 100px;
+}
 
-    }
+.footer-colum {
+    display: flex;
+    gap: 360px;
+    padding-left: 120px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
-    .colum-item {
-        color: #FFF;
-        font-family: Inter;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 40px;
-    }
+}
 
-    .img-footer {
-        padding-top: 60px;
-        padding-left: 50%;
-        padding-bottom: 50px;
-    }
+.colum-item {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
 
-    .footer-contant {
-        display: flex;
-        gap: 700px;
-        padding-left: 120px;
-        padding-top: 70px;
+.img-footer {
+    padding-top: 60px;
+    padding-left: 50%;
+    padding-bottom: 50px;
+}
 
-    }
+.footer-contant {
+    display: flex;
+    gap: 700px;
+    padding-left: 120px;
+    padding-top: 70px;
 
-    hr {
-        border: 1px solid rgba(255, 255, 255, 0.15);
-    }
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+/* end */
